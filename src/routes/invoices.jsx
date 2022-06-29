@@ -29,6 +29,7 @@ export default function Invoices() {
             }
           }}
         />
+
         {invoices
           .filter(invoice => {
             let filter = searchParams.get("filter");
